@@ -73,6 +73,14 @@ class MainActivity : AppCompatActivity() {
         // 다음 영상에서 보여드리겠습니다!
         // 디자인 패턴 빌더
 
+        // 기본 매개변수 생성자에서 값을 미리 넣어둘수도 있습니다.!
+        var myBestFriend = MyFriendWithDefaultParams()
+
+        Log.d(TAG, "MainActivity - myBestFriend.name : ${myBestFriend.name}")
+        Log.d(TAG, "MainActivity - myBestFriend.age : ${myBestFriend.age}")
+        Log.d(TAG, "MainActivity - myBestFriend.isMarried : ${myBestFriend.isMarried}")
+        Log.d(TAG, "MainActivity - myBestFriend.nickname : ${myBestFriend.nickname}")
+
     }
 
 
